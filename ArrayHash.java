@@ -22,7 +22,7 @@ public class ArrayHash {
         }
 
         System.out.println("\nElements in mySisters:");
-        for (Map.Entry<Person, Integer> entry : mySisters.entrySet()) {
+        for (var entry : mySisters.entrySet()) {
             System.out.println(entry.getKey() + " - Age: " + entry.getValue());
         }
 
